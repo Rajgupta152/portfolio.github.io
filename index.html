@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/622c51e26f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">My work</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I Am Kshitij Gupta<br> From India</h1>
+            </div>
+
+        </div>
+    </div>
+    <!------------About Section------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG_-dho5d7-removebg-preview.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>I am Kshitij Gupta Web Developer by profession.I fond to learn new things and new technology.I belive in process and not
+                        think too much about result just try to give my best.
+                    </p>
+                          <div class="tab-titles">
+                            <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"  onclick="opentab('education')">Education</p>
+                            <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                          </div>
+                          <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>C/C++</span><br>Backend Development</li>
+                                <li><span>HTML/CSS</span><br>Frontend Development</li>
+                                <li><span>MySQL</span><br>Building Database</li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2018-2022</span><br>Technocrats Institute of Technology</li>
+                                <li><span>2017-2018</span><br>Govt. H.S School</li>
+                                <li><span>2015-2016</span><br>Jay Bharat H.S. School</li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Jan 2022 - Apr 2022</span><br>Internship at Hidden Brains</li>
+                               
+                            </ul>
+                          </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------Services-------------------->
+
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web design</h2>
+                <p>Web design is the creation of websites and pages to reflect a company's brand and information and ensure a user-friendly
+                     experience.
+                     Appearance and design are incorporated as vital elements whether you're designing a website, mobile app or maintaining 
+                     content on
+                      a web page.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>App design</h2>
+                <p> App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define 
+                    solutions, create the app's flow and structure, and make stylistic choices from colors to fonts.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Database design</h2>
+                <p>A good database design is, therefore, one that: Divides your information into subject-based tables to reduce redundant data.
+                     Provides Access with the information it requires to join the information in the tables together as needed. Helps support 
+                     and ensure the accuracy and integrity of your information.</p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!------------------------My Work---------------------->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you with the talented people aroud you download it from playstore</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" alt="">
+                <div class="layer">
+                    <h3>Online Shoping App</h3>
+                    <p>The app connects you with the talented people aroud you download it from playstore</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" alt="">
+                <div class="layer">
+                    <h3> Music App</h3>
+                    <p>The app connects you with the talented people aroud you download it from playstore</p>
+                </div>
+            </div>
+        </div>
+            <a href="#" class="btn">See More</a>
+    </div>
+   </div>
+
+   <!-- Contact section -------->
+   <div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-tittle">Contact</h1>
+              <p><i class="fas fa-paper-plane"></i>kshitijgupta782@gmail.com</p>
+              <p><i class="fas fa-phone-square-alt"></i>9098380207</p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/kshitij.gupta.16144606"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.instagram.com/kshitijgupta6543/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="www.linkdin.com"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <a href="Image/Kshitij_Gupta_Resume (2).pdf" download class="btn"> Download Cv </a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="Enter Your Name"><br>
+                    <input type="email" name="email" placeholder="Enter Your Email" required><br>
+                    <input type="number" name="number" placeholder="Enter Your Mobile Number">
+                    <textarea name="message" id="" cols="100" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   </div>
+   
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
