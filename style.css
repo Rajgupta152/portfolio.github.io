@@ -6,7 +6,7 @@
 }
 body{
     background: black;
-    color: rgb(5, 3, 11);
+    color: rgb(234, 233, 240);
 }
 .container{
     padding: 10px 10%;
@@ -50,10 +50,6 @@ nav ul li a:hover::after{
     margin-top: 20px;
     font-size: 60px;
 }
-.header-text p{
-    color:  rgb(226, 216, 216);
-}
-
 /*-------------About section----------*/
 #about{
     padding: 80px 0;
